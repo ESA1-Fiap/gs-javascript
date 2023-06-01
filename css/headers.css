@@ -8,8 +8,7 @@
     padding: 0 20px;
     position: absolute;
     top: 0;
-    left: 0;
-  
+    left: 0;  
 }
 
 .header-page h1{
@@ -17,12 +16,21 @@
     text-underline-offset: 10px;
 }
 
-.header-menu ul {
-    display: flex;
-    gap: 20px;   
+.header-menu ul{
+    display:flex;
+    gap: 20px;
+    list-style: none;  
 }
 
-.header-menu li {
+.header-menu ul a:hover{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+
+}
+
+.header-menu a{
     display: flex;
     text-decoration: none;
+    color: aliceblue;
+    transition: .7s;
 }

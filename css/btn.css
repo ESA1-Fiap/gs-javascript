@@ -1,0 +1,25 @@
+.buttons-container {
+    display: flex;
+    gap: 20px;
+    transition: all 0.3s;
+}
+  
+.btn-sun, .btn-moon {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: #000;
+}
+  
+.btn-sun:hover, .btn-moon:hover {
+    color: #ff0;
+}
+  
+.btn-sun {
+    transform: translateX(-10px);
+}
+  
+.btn-moon {
+    transform: translateX(10px);
+}
