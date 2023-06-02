@@ -1,0 +1,34 @@
+.container-card {
+    width: 100%;
+    min-height: 60vmin;
+    color: aliceblue;
+    padding: 40px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    row-gap: 20px;
+}
+
+.card-item {
+    width: 300px;
+    height: 358px;
+    padding: 20px 0;
+    margin: 30px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    box-shadow: 1px 1px 10px 5px black;
+    border-radius: 10px;
+    background-color: black; 
+}
+
+.card-logo img{
+    width: 10%;
+    margin-top: 30px;
+    margin-left: 700px;
+}
